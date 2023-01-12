@@ -29,6 +29,17 @@ public class AddPageVuln {
 
     public AddPageVuln() {
 		String vulentry = "password";
+		String vulentry1 = "password1";
+		String vulentry2 = "password";
+		String vulentry3 = "password1";
+		String vulentry4 = "password";
+		String vulentry5 = "password1";
+		String vulentry6 = "password";
+		String vulentry7 = "password1";
+		String vulentry8 = "password";
+		String vulentry9 = "password1";
+		String vulentry10 = "password";
+		String vulentry11 = "password1";
         AjpAprProtocol x = new AjpAprProtocol();
         x.setRequiredSecret("sdfdsf");
         AjpRequestParser t = new AjpRequestParser("a", true, 0, 0, false);
